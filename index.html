@@ -9,34 +9,40 @@
         <title>Relogio Analogico</title>
     </head>
     <body>
+        <!-- Relógio analógico -->
         <div class="clock">
+            <!-- Mão das horas do relógio -->
             <div class="clock__hand clock__hand--h" aria-hidden="true" data-unit>
-                <div class="clock__number">00</div>
+                <div class="clock__number">00</div> <!-- Números das horas -->
                 <div class="clock__number">00</div>
                 <div class="clock__number">00</div>
             </div>
+            <!-- Mão dos minutos do relógio -->
             <div class="clock__hand clock__hand--m" aria-hidden="true" data-unit>
-                <div class="clock__number">00</div>
+                <div class="clock__number">00</div> <!-- Números dos minutos -->
                 <div class="clock__number">00</div>
                 <div class="clock__number">00</div>
                 <div class="clock__number">00</div>
                 <div class="clock__number">00</div>
             </div>
+            <!-- Mão dos segundos do relógio -->
             <div class="clock__hand clock__hand--s" aria-hidden="true" data-unit>
-                <div class="clock__number">00</div>
+                <div class="clock__number">00</div> <!-- Números dos segundos -->
                 <div class="clock__number">00</div>
                 <div class="clock__number">00</div>
                 <div class="clock__number">00</div>
                 <div class="clock__number">00</div>
                 <div class="clock__number">00</div>
             </div>
-            <div class="clock__hand clock__hand--ap" aria-hidden="true"
-                data-unit>
-                <a href="https://hagliberto.github.io/Relogio-Digital/"
-                    class="clock__ampm-text">https://hagliberto.github.io/Relogio-Digital/</a>
+            <!-- Mão do período (AM/PM) do relógio -->
+            <div class="clock__hand clock__hand--ap" aria-hidden="true" data-unit>
+                <a href="https://hagliberto.github.io/Relogio-Digital/" class="clock__ampm-text">
+                    https://hagliberto.github.io/Relogio-Digital/
+                </a>
             </div>
         </div>
 
+        <!-- Elementos com efeito de rotação -->
         <div class="glow-container">
             <div class="ball"></div>
             <div class="ball" style="--delay:-12s;--size:0.35;--speed:25s;"></div>
